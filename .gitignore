@@ -4,10 +4,26 @@ __pycache__/
 *$py.class
 *.pyc
 
-# Other stuff
+# Exluded some files
 config/config.py
+config/logging.yaml
+config/logging_dev.yaml
+config/config_template_dev.py
 config/config.json
+install/requirements.txt
+lib/config_class.py
+install_new.sql
+cleanup_pycache.sh
+migratedb.py
+bot-sigterm.py
+
+# Exlude "dirs"
+backup
+/vendor
+
+# Other stuff
 Thumbs.db
 libtemp*
-bot_old.py
-backup
+temp*
+*.backup
+*-dev.py
